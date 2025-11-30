@@ -62,6 +62,8 @@
         // Call the function to select utilities when the component is first rendered
         selectUtilities();
     })
+
+import MountHeroCtas from '$lib/components/MountHeroCtas.svelte';
 </script>
 
 <div class="flex flex-col items-center mt-16 mx-6 sm:mx-8 md:mx-14">
@@ -69,6 +71,8 @@
         <img src={logo} alt="MC Utils Logo" class="h-20">
         <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-white">MountHost Utils</h1>
         <p class="mt-3 max-w-xl text-zinc-400">Coleção de ferramentas gratuitas da MountHost para criar, configurar e otimizar servidores de Minecraft de forma simples e rápida.</p>
+
+  <MountHeroCtas />
     </div>
 
     <div class="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 justify-center gap-5 mt-[5%]">

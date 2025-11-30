@@ -1,0 +1,34 @@
+<script lang="ts">
+  const SITE_URL = "https://www.mounthost.com.br/";
+  const CLIENT_PANEL_URL = "https://financeiro.mounthost.com.br/";
+  const WHATS_URL = "https://wa.me/556191878904";
+</script>
+
+<div class="mt-8 flex flex-col items-center justify-center gap-3 md:flex-row md:gap-4">
+  <a
+    href={SITE_URL}
+    target="_blank"
+    rel="noreferrer"
+    class="inline-flex items-center justify-center rounded-full bg-blue-500 px-6 py-2 text-sm font-semibold text-white shadow-lg shadow-blue-900/40 transition hover:bg-blue-400 hover:-translate-y-0.5"
+  >
+    Ver planos de hospedagem
+  </a>
+
+  <a
+    href={CLIENT_PANEL_URL}
+    target="_blank"
+    rel="noreferrer"
+    class="inline-flex items-center justify-center rounded-full border border-zinc-700 bg-black/30 px-6 py-2 text-sm font-medium text-zinc-100 transition hover:border-blue-400 hover:text-blue-300 hover:-translate-y-0.5"
+  >
+    Acessar painel do cliente
+  </a>
+
+  <a
+    href={WHATS_URL}
+    target="_blank"
+    rel="noreferrer"
+    class="inline-flex items-center justify-center rounded-full border border-transparent px-4 py-2 text-xs font-medium text-zinc-300 underline decoration-zinc-600 hover:decoration-blue-400"
+  >
+    Falar com o suporte no WhatsApp
+  </a>
+</div>
