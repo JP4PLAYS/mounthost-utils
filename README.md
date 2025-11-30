@@ -1,11 +1,11 @@
 # MC Utils
 [MC Utils](https://mcutils.com) is a collection of Minecraft utilities built for developers, builders and players. The site hosts some popular tools like Server Jars, Item IDs, Inventory Slots, Start File Generator and more, all with a slick interface for ease of use.
 
-The project is powered by the team at [Flyte](https://flyte.gg/) and our generous contributors.
+The project is powered by the team at [Flyte](https://discord.com/invite/dHfC5tujXx/) and our generous contributors.
 
 If you want to support, or chat with the team, come join our Discord:
 
-[![Discord Banner](https://discordapp.com/api/guilds/835561528299880518/widget.png?style=banner2)](https://flyte.gg/discord)
+[![Discord Banner](https://discordapp.com/api/guilds/835561528299880518/widget.png?style=banner2)](https://discord.com/invite/dHfC5tujXx)
 
 
 ## 📝 Contributing

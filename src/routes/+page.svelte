@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>MC Utils</title>
+    <title>MountHost Utils</title>
     <meta content="MC Utils" property="og:title" />
     <meta content="MC Utils" property="og:site_name" />
     <meta content="Minecraft tools for server admins, developers, and players. Download server jars, view item IDs, steal skins and capes, view inventory slot IDs, generate banners and fireworks, get color codes and more." property="og:description" />
@@ -15,7 +15,7 @@
 <script lang="ts">
     import type { LayoutData } from "./$types"
     import { onMount } from "svelte";
-    import logo from "$lib/image/logo.svg"
+    import logo from "$lib/image/mounthost-logo.png"
 
     export let data: LayoutData
     let selectedUtils = []
@@ -67,7 +67,8 @@
 <div class="flex flex-col items-center mt-16 mx-6 sm:mx-8 md:mx-14">
     <div class="flex flex-col items-center gap-y-10">
         <img src={logo} alt="MC Utils Logo" class="h-20">
-        <h1 class="text-white/60 text-xl text-center">Community powered Minecraft utilities for developers, builders and players.</h1>
+        <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-white">MountHost Utils</h1>
+        <p class="mt-3 max-w-xl text-zinc-400">Coleção de ferramentas gratuitas da MountHost para criar, configurar e otimizar servidores de Minecraft de forma simples e rápida.</p>
     </div>
 
     <div class="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 justify-center gap-5 mt-[5%]">

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import logo from "$lib/image/logo.svg"
+    import logo from "$lib/image/mounthost-logo.png"
     import type { PageData } from './$types'
     export let data: PageData
 
